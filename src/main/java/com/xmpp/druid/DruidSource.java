@@ -214,17 +214,17 @@ public class DruidSource {
         DruidDataSource datasource = new DruidDataSource();
 
         datasource.setUrl(this.dbUrl);
-        System.out.println(dbUrl);
+
         datasource.setUsername(username);
-        System.out.println(username);
+
         datasource.setPassword(password);
-        System.out.println(password);
+
         datasource.setDriverClassName(driverClassName);
-        System.out.println(driverClassName);
+
 
         //configuration
         datasource.setInitialSize(initialSize);
-        System.out.println(initialSize);
+
         datasource.setMinIdle(minIdle);
         datasource.setMaxActive(maxActive);
         datasource.setMaxWait(maxWait);
